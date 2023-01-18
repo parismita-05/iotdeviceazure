@@ -7,6 +7,7 @@ namespace AzureIOT.Controllers
     [Route("")]
     public class HomeController : ControllerBase
     {
+        //home
         [HttpGet]
         public ActionResult Get()
         {
